@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background-color: #0a0812;
+  color: #e8deff;
+  font-family: 'Inter', system-ui, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #120e1c; }
+::-webkit-scrollbar-thumb { background: #2d2050; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #9b59ff; }
+
+/* Gold glow text */
+.glow-gold {
+  text-shadow: 0 0 10px #f0c04099, 0 0 30px #f0c04044;
+}
+
+.glow-purple {
+  text-shadow: 0 0 10px #9b59ff99, 0 0 30px #9b59ff44;
+}
+
+/* Mystic gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #f0c040 0%, #9b59ff 50%, #ff6eb4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Number badge */
+.number-badge {
+  background: linear-gradient(135deg, #f0c04022, #9b59ff22);
+  border: 1px solid #f0c04044;
+}
+
+/* Stars background */
+.stars {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(1px 1px at 20% 30%, #ffffff22, transparent),
+    radial-gradient(1px 1px at 50% 60%, #ffffff18, transparent),
+    radial-gradient(1px 1px at 75% 20%, #ffffff22, transparent),
+    radial-gradient(1px 1px at 30% 80%, #ffffff15, transparent),
+    radial-gradient(1px 1px at 85% 50%, #ffffff20, transparent),
+    radial-gradient(1px 1px at 10% 50%, #ffffff18, transparent),
+    radial-gradient(1px 1px at 60% 90%, #ffffff22, transparent);
+}
+
+/* Card shimmer on hover */
+.mystic-card {
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.mystic-card:hover {
+  border-color: #9b59ff44;
+  box-shadow: 0 0 20px #9b59ff18;
+}
+
+/* Progress bar */
+.progress-mystic {
+  background: linear-gradient(90deg, #9b59ff, #f0c040, #ff6eb4, #9b59ff);
+  background-size: 200% 100%;
+  animation: shimmer 2s linear infinite;
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+
+/* Input focus */
+.mystic-input {
+  background: #1a1428;
+  border: 1px solid #2d2050;
+  color: #e8deff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.mystic-input:focus {
+  outline: none;
+  border-color: #9b59ff;
+  box-shadow: 0 0 0 3px #9b59ff22;
+}
+.mystic-input::placeholder { color: #7a6aaa; }
