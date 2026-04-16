@@ -1,3 +1,4 @@
+# © 2026 Aboubacar Sidick Meite (ApollonIUGB77) — All Rights Reserved
 """Core numerology calculation engine — ported from console script."""
 
 import unicodedata

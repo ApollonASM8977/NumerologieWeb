@@ -1,3 +1,4 @@
+# © 2026 Aboubacar Sidick Meite (ApollonIUGB77) — All Rights Reserved
 """NumerologieWeb API — FastAPI backend."""
 
 from fastapi import FastAPI, HTTPException

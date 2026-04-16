@@ -1,3 +1,4 @@
+// © 2026 Aboubacar Sidick Meite (ApollonIUGB77) — All Rights Reserved
 import { useState } from 'react'
 import { User, Heart } from 'lucide-react'
 import ProfileTab from './components/ProfileTab'
@@ -77,6 +78,7 @@ export default function App() {
           <p className="text-center text-mystic-muted/30 text-xs mt-6 tracking-widest">
             v1.0.0 · FastAPI + React · Analyse locale
           </p>
+          <p className="text-right text-mystic-muted/20 text-xs mt-1 pr-1">© ASM</p>
         </main>
       </div>
     </div>
