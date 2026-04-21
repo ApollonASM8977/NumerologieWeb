@@ -1,6 +1,6 @@
-# ✨ NumerologieWeb
+﻿# âœ¨ NumerologieWeb
 
-> Analyse numérologique complète — découvrez vos nombres, cycles de vie et compatibilité.
+> Analyse numÃ©rologique complÃ¨te â€” dÃ©couvrez vos nombres, cycles de vie et compatibilitÃ©.
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi)
@@ -12,42 +12,42 @@
 
 ## Qu'est-ce que NumerologieWeb ?
 
-NumerologieWeb est une application web full-stack qui calcule et interprète vos **nombres numérологiques** à partir de votre prénom, nom et date de naissance.  
-Interface mystique violet/or — entièrement locale, aucune donnée envoyée à l'extérieur.
+NumerologieWeb est une application web full-stack qui calcule et interprÃ¨te vos **nombres numÃ©rÐ¾Ð»Ð¾Ð³iques** Ã  partir de votre prÃ©nom, nom et date de naissance.  
+Interface mystique violet/or â€” entiÃ¨rement locale, aucune donnÃ©e envoyÃ©e Ã  l'extÃ©rieur.
 
 ---
 
-## Fonctionnalités
+## FonctionnalitÃ©s
 
-| Fonctionnalité | Détails |
+| FonctionnalitÃ© | DÃ©tails |
 |---|---|
-| 🌠 Chemin de vie | Calculé depuis la date de naissance, réduit aux nombres maîtres |
-| 🎭 Nombre d'expression | Basé sur toutes les lettres du nom complet |
-| 💖 Nombre de motivation | Calculé depuis les voyelles du nom |
-| 🧱 Nombre de réalisation | Calculé depuis les consonnes du nom |
-| 🌀 Cycles de vie | 3 cycles majeurs (0–27, 28–56, 57+) avec interprétations |
-| ⚖️ Analyse d'équilibre | Cohérence entre chemin, expression et motivation |
-| 💀 Lettres karmiques | Détection des vibrations manquantes dans le nom |
-| ❤️ Compatibilité | Comparaison de deux profils avec score et verdict |
-| ⭐ Nombres maîtres | Détection et mise en valeur des nombres 11, 22, 33 |
+| ðŸŒ  Chemin de vie | CalculÃ© depuis la date de naissance, rÃ©duit aux nombres maÃ®tres |
+| ðŸŽ­ Nombre d'expression | BasÃ© sur toutes les lettres du nom complet |
+| ðŸ’– Nombre de motivation | CalculÃ© depuis les voyelles du nom |
+| ðŸ§± Nombre de rÃ©alisation | CalculÃ© depuis les consonnes du nom |
+| ðŸŒ€ Cycles de vie | 3 cycles majeurs (0â€“27, 28â€“56, 57+) avec interprÃ©tations |
+| âš–ï¸ Analyse d'Ã©quilibre | CohÃ©rence entre chemin, expression et motivation |
+| ðŸ’€ Lettres karmiques | DÃ©tection des vibrations manquantes dans le nom |
+| â¤ï¸ CompatibilitÃ© | Comparaison de deux profils avec score et verdict |
+| â­ Nombres maÃ®tres | DÃ©tection et mise en valeur des nombres 11, 22, 33 |
 
 ---
 
-## Méthode de calcul
+## MÃ©thode de calcul
 
 ```
-Prénom + Nom  ──► nettoyage (accents, casse) ──► table pythagoricienne
-                                                         │
-                               ┌─────────────────────────┤
-                               │                         │
+PrÃ©nom + Nom  â”€â”€â–º nettoyage (accents, casse) â”€â”€â–º table pythagoricienne
+                                                         â”‚
+                               â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+                               â”‚                         â”‚
                           Consonnes                  Voyelles
-                               │                         │
-                          Réalisation               Motivation
-                               └────────┬────────────────┘
-                                        │
+                               â”‚                         â”‚
+                          RÃ©alisation               Motivation
+                               â””â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+                                        â”‚
                                    Expression (toutes lettres)
 
-Date de naissance ──► somme des chiffres ──► réduction ──► Chemin de vie
+Date de naissance â”€â”€â–º somme des chiffres â”€â”€â–º rÃ©duction â”€â”€â–º Chemin de vie
                                            (conserve 11, 22, 33)
 ```
 
@@ -56,7 +56,7 @@ Date de naissance ──► somme des chiffres ──► réduction ──► Ch
 ## Installation
 
 ```bash
-git clone https://github.com/ApollonIUGB77/NumerologieWeb.git
+git clone https://github.com/ApollonASM8977/NumerologieWeb.git
 cd NumerologieWeb
 ```
 
@@ -84,54 +84,55 @@ npm run dev
 
 ```
 NumerologieWeb/
-├── backend/
-│   ├── main.py           # API FastAPI — routes /analyze et /compatibility
-│   ├── numerology.py     # Moteur de calcul numérologique complet
-│   └── requirements.txt
-│
-└── frontend/
-    ├── src/
-    │   ├── App.tsx                      # Shell principal — 2 onglets
-    │   └── components/
-    │       ├── ProfileTab.tsx           # Onglet profil complet
-    │       ├── CompatibilityTab.tsx     # Onglet compatibilité
-    │       ├── ProfileResult.tsx        # Affichage des résultats
-    │       ├── NumberCard.tsx           # Carte par nombre
-    │       └── PersonForm.tsx           # Formulaire de saisie
-    ├── tailwind.config.js               # Thème mystique violet/or
-    └── vite.config.ts
+â”œâ”€â”€ backend/
+â”‚   â”œâ”€â”€ main.py           # API FastAPI â€” routes /analyze et /compatibility
+â”‚   â”œâ”€â”€ numerology.py     # Moteur de calcul numÃ©rologique complet
+â”‚   â””â”€â”€ requirements.txt
+â”‚
+â””â”€â”€ frontend/
+    â”œâ”€â”€ src/
+    â”‚   â”œâ”€â”€ App.tsx                      # Shell principal â€” 2 onglets
+    â”‚   â””â”€â”€ components/
+    â”‚       â”œâ”€â”€ ProfileTab.tsx           # Onglet profil complet
+    â”‚       â”œâ”€â”€ CompatibilityTab.tsx     # Onglet compatibilitÃ©
+    â”‚       â”œâ”€â”€ ProfileResult.tsx        # Affichage des rÃ©sultats
+    â”‚       â”œâ”€â”€ NumberCard.tsx           # Carte par nombre
+    â”‚       â””â”€â”€ PersonForm.tsx           # Formulaire de saisie
+    â”œâ”€â”€ tailwind.config.js               # ThÃ¨me mystique violet/or
+    â””â”€â”€ vite.config.ts
 ```
 
 ---
 
 ## API Endpoints
 
-| Méthode | Endpoint | Description |
+| MÃ©thode | Endpoint | Description |
 |---|---|---|
 | `GET` | `/` | Health check |
-| `POST` | `/analyze` | Profil numérologique complet |
-| `POST` | `/compatibility` | Compatibilité entre deux personnes |
+| `POST` | `/analyze` | Profil numÃ©rologique complet |
+| `POST` | `/compatibility` | CompatibilitÃ© entre deux personnes |
 
 ---
 
 ## Tech Stack
 
-- **Backend** — FastAPI, Python 3.11, Uvicorn
-- **Calculs** — Python natif (unicodedata, arithmétique)
-- **Frontend** — React 18, TypeScript, Vite
-- **Styling** — Tailwind CSS (thème mystique personnalisé)
-- **HTTP** — Axios
+- **Backend** â€” FastAPI, Python 3.11, Uvicorn
+- **Calculs** â€” Python natif (unicodedata, arithmÃ©tique)
+- **Frontend** â€” React 18, TypeScript, Vite
+- **Styling** â€” Tailwind CSS (thÃ¨me mystique personnalisÃ©)
+- **HTTP** â€” Axios
 
 ---
 
 ## Auteur
 
-**Aboubacar Sidick Meite** — Cybersecurity Student  
-[GitHub](https://github.com/ApollonIUGB77)
+**Aboubacar Sidick Meite** â€” Cybersecurity Student  
+[GitHub](https://github.com/ApollonASM8977)
 
 ---
 
 ## Licence
 
-© 2026 Aboubacar Sidick Meite — Tous droits réservés.  
-Toute reproduction ou distribution non autorisée est strictement interdite.
+Â© 2026 Aboubacar Sidick Meite â€” Tous droits rÃ©servÃ©s.  
+Toute reproduction ou distribution non autorisÃ©e est strictement interdite.
+

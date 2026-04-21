@@ -1,4 +1,4 @@
-// © 2026 Aboubacar Sidick Meite (ApollonIUGB77) — All Rights Reserved
+﻿// Â© 2026 Aboubacar Sidick Meite (ApollonASM8977) â€” All Rights Reserved
 import { useState } from 'react'
 import { User, Heart } from 'lucide-react'
 import ProfileTab from './components/ProfileTab'
@@ -8,7 +8,7 @@ type Tab = 'profile' | 'compat'
 
 const TABS: { id: Tab; label: string; icon: React.ReactNode }[] = [
   { id: 'profile', label: 'Mon Profil',     icon: <User size={14} /> },
-  { id: 'compat',  label: 'Compatibilité',  icon: <Heart size={14} /> },
+  { id: 'compat',  label: 'CompatibilitÃ©',  icon: <Heart size={14} /> },
 ]
 
 export default function App() {
@@ -28,18 +28,18 @@ export default function App() {
         {/* Header */}
         <header className="w-full max-w-lg mb-10 text-center space-y-4">
           <div className="flex items-center justify-center gap-3">
-            <span className="text-4xl animate-float">✨</span>
+            <span className="text-4xl animate-float">âœ¨</span>
             <h1 className="font-serif text-4xl font-bold gradient-text tracking-wide">
-              Numérologie
+              NumÃ©rologie
             </h1>
-            <span className="text-4xl animate-float" style={{ animationDelay: '1s' }}>✨</span>
+            <span className="text-4xl animate-float" style={{ animationDelay: '1s' }}>âœ¨</span>
           </div>
           <p className="text-sm text-mystic-muted tracking-wide">
-            Découvrez les vibrations cachées de votre prénom et de votre date de naissance
+            DÃ©couvrez les vibrations cachÃ©es de votre prÃ©nom et de votre date de naissance
           </p>
           <div className="flex items-center justify-center gap-2 text-mystic-muted/40 text-xs">
             <span className="w-16 h-px bg-gradient-to-r from-transparent to-mystic-gold/30" />
-            Chemin de vie · Expression · Motivation · Cycles
+            Chemin de vie Â· Expression Â· Motivation Â· Cycles
             <span className="w-16 h-px bg-gradient-to-l from-transparent to-mystic-gold/30" />
           </div>
         </header>
@@ -76,11 +76,12 @@ export default function App() {
           </div>
 
           <p className="text-center text-mystic-muted/30 text-xs mt-6 tracking-widest">
-            v1.0.0 · FastAPI + React · Analyse locale
+            v1.0.0 Â· FastAPI + React Â· Analyse locale
           </p>
-          <p className="text-right text-mystic-muted/20 text-xs mt-1 pr-1">© ASM</p>
+          <p className="text-right text-mystic-muted/20 text-xs mt-1 pr-1">Â© ASM</p>
         </main>
       </div>
     </div>
   )
 }
+
