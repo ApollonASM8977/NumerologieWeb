@@ -79,7 +79,7 @@ def analyse_equilibre(chemin: int, expression: int, motivation: int) -> str:
 def compatibilite(c1: int, c2: int) -> dict:
     diff = abs(c1 - c2)
     if c1 == c2:
-        score, label, desc = 95, "Ã‚mes sÅ“urs", "Vous partagez les mêmes vibrations fondamentales."
+        score, label, desc = 95, "Âmes sœurs", "Vous partagez les mêmes vibrations fondamentales."
     elif diff == 1:
         score, label, desc = 80, "Très compatible", "Personnalités complémentaires et naturellement attirées."
     elif diff in (2, 3):
@@ -87,7 +87,7 @@ def compatibilite(c1: int, c2: int) -> dict:
     elif diff in (4, 5):
         score, label, desc = 45, "Différences notables", "Des efforts d'adaptation seront nécessaires."
     else:
-        score, label, desc = 30, "Contrastes forts", "Ã‰nergies très différentes — compréhension profonde requise."
+        score, label, desc = 30, "Contrastes forts", "Énergies très différentes — compréhension profonde requise."
     return {"score": score, "label": label, "description": desc}
 
 # ── Interpretations ───────────────────────────────────────────────────────────
@@ -132,7 +132,7 @@ _MOTIVATION = {
     7: ("Vérité", "Vous cherchez à comprendre, méditer, analyser le sens profond."),
     8: ("Réussite", "Vous voulez réussir, maîtriser et exercer une influence réelle."),
     9: ("Service", "Vous aspirez à servir les autres avec compassion et universalité."),
-    11: ("Ã‰veil", "Vous ressentez un appel intérieur fort à éveiller et inspirer."),
+    11: ("Éveil", "Vous ressentez un appel intérieur fort à éveiller et inspirer."),
     22: ("Impact", "Vous êtes motivé par une vision concrète à impact collectif majeur."),
     33: ("Guérison", "Vous avez le désir profond d'apporter l'amour et la guérison."),
 }
@@ -143,7 +143,7 @@ _REALISATION = {
     3: ("Artiste", "Vous êtes perçu comme joyeux, expressif et plein de vie."),
     4: ("Pilier", "Vous montrez une image sérieuse, stable et rassurante."),
     5: ("Dynamique", "Votre image publique est dynamique, vive et toujours adaptable."),
-    6: ("Bienveillant", "Vous êtes vu comme bienveillant, serviable et ancré dans le cÅ“ur."),
+    6: ("Bienveillant", "Vous êtes vu comme bienveillant, serviable et ancré dans le cœur."),
     7: ("Mystérieux", "On vous perçoit comme réfléchi, mystérieux et profond."),
     8: ("Autorité", "Vous inspirez le respect, la maîtrise et la réussite."),
     9: ("Sage", "Vous êtes perçu comme généreux, humaniste et sage."),

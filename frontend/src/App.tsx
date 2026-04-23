@@ -28,18 +28,18 @@ export default function App() {
         {/* Header */}
         <header className="w-full max-w-lg mb-10 text-center space-y-4">
           <div className="flex items-center justify-center gap-3">
-            <span className="text-4xl animate-float">âœ¨</span>
+            <span className="text-4xl animate-float">✨</span>
             <h1 className="font-serif text-4xl font-bold gradient-text tracking-wide">
               Numérologie
             </h1>
-            <span className="text-4xl animate-float" style={{ animationDelay: '1s' }}>âœ¨</span>
+            <span className="text-4xl animate-float" style={{ animationDelay: '1s' }}>✨</span>
           </div>
           <p className="text-sm text-mystic-muted tracking-wide">
             Découvrez les vibrations cachées de votre prénom et de votre date de naissance
           </p>
           <div className="flex items-center justify-center gap-2 text-mystic-muted/40 text-xs">
             <span className="w-16 h-px bg-gradient-to-r from-transparent to-mystic-gold/30" />
-            Chemin de vie Â· Expression Â· Motivation Â· Cycles
+            Chemin de vie · Expression · Motivation · Cycles
             <span className="w-16 h-px bg-gradient-to-l from-transparent to-mystic-gold/30" />
           </div>
         </header>
@@ -76,7 +76,7 @@ export default function App() {
           </div>
 
           <p className="text-center text-mystic-muted/30 text-xs mt-6 tracking-widest">
-            v1.0.0 Â· FastAPI + React Â· Analyse locale
+            v1.0.0 · FastAPI + React · Analyse locale
           </p>
           <p className="text-right text-mystic-muted/20 text-xs mt-1 pr-1">© ASM</p>
         </main>

@@ -1,4 +1,4 @@
-# âœ¨ NumerologieWeb
+# ✨ NumerologieWeb
 
 > Analyse numérologique complète — découvrez vos nombres, cycles de vie et compatibilité.
 
@@ -21,14 +21,14 @@ Interface mystique violet/or — entièrement locale, aucune donnée envoyée à
 
 | Fonctionnalité | Détails |
 |---|---|
-| ðŸŒ  Chemin de vie | Calculé depuis la date de naissance, réduit aux nombres maîtres |
-| ðŸŽ­ Nombre d'expression | Basé sur toutes les lettres du nom complet |
-| ðŸ’– Nombre de motivation | Calculé depuis les voyelles du nom |
-| ðŸ§± Nombre de réalisation | Calculé depuis les consonnes du nom |
-| ðŸŒ€ Cycles de vie | 3 cycles majeurs (0–27, 28–56, 57+) avec interprétations |
-| âš–ï¸ Analyse d'équilibre | Cohérence entre chemin, expression et motivation |
-| ðŸ’€ Lettres karmiques | Détection des vibrations manquantes dans le nom |
-| â¤ï¸ Compatibilité | Comparaison de deux profils avec score et verdict |
+| 🌠 Chemin de vie | Calculé depuis la date de naissance, réduit aux nombres maîtres |
+| 🎭 Nombre d'expression | Basé sur toutes les lettres du nom complet |
+| 💖 Nombre de motivation | Calculé depuis les voyelles du nom |
+| 🧱 Nombre de réalisation | Calculé depuis les consonnes du nom |
+| 🌀 Cycles de vie | 3 cycles majeurs (0–27, 28–56, 57+) avec interprétations |
+| ⚖️ Analyse d'équilibre | Cohérence entre chemin, expression et motivation |
+| 💀 Lettres karmiques | Détection des vibrations manquantes dans le nom |
+| ❤️ Compatibilité | Comparaison de deux profils avec score et verdict |
 | ⭐ Nombres maîtres | Détection et mise en valeur des nombres 11, 22, 33 |
 
 ---
@@ -36,18 +36,18 @@ Interface mystique violet/or — entièrement locale, aucune donnée envoyée à
 ## Méthode de calcul
 
 ```
-Prénom + Nom  ──â–º nettoyage (accents, casse) ──â–º table pythagoricienne
+Prénom + Nom  ──► nettoyage (accents, casse) ──► table pythagoricienne
                                                          │
-                               â”Œ─────────────────────────â”¤
+                               ┌─────────────────────────┤
                                │                         │
                           Consonnes                  Voyelles
                                │                         │
                           Réalisation               Motivation
-                               └────────â”¬────────────────â”˜
+                               └────────┬────────────────┘
                                         │
                                    Expression (toutes lettres)
 
-Date de naissance ──â–º somme des chiffres ──â–º réduction ──â–º Chemin de vie
+Date de naissance ──► somme des chiffres ──► réduction ──► Chemin de vie
                                            (conserve 11, 22, 33)
 ```
 
