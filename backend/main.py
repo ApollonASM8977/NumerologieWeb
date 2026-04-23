@@ -1,5 +1,5 @@
-﻿# Â© 2026 Aboubacar Sidick Meite (ApollonASM8977) â€” All Rights Reserved
-"""NumerologieWeb API â€” FastAPI backend."""
+# © 2026 Aboubacar Sidick Meite (ApollonASM8977) — All Rights Reserved
+"""NumerologieWeb API — FastAPI backend."""
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -8,11 +8,11 @@ import datetime
 
 from numerology import analyser, chemin_de_vie, compatibilite
 
-# â”€â”€ App â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ── App ───────────────────────────────────────────────────────────────────────
 
 app = FastAPI(
     title="NumerologieWeb API",
-    description="Analyse numÃ©rologique complÃ¨te â€” calcul et interprÃ©tation.",
+    description="Analyse numérologique complète — calcul et interprétation.",
     version="1.0.0",
 )
 
@@ -23,7 +23,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# â”€â”€ Models â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ── Models ────────────────────────────────────────────────────────────────────
 
 class PersonRequest(BaseModel):
     prenom: str = Field(..., min_length=1)
@@ -38,7 +38,7 @@ class CompatibiliteRequest(BaseModel):
     personne2: PersonRequest
 
 
-# â”€â”€ Routes â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ── Routes ────────────────────────────────────────────────────────────────────
 
 @app.get("/")
 def root():

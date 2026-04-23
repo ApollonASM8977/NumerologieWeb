@@ -1,4 +1,4 @@
-﻿// Â© 2026 Aboubacar Sidick Meite (ApollonASM8977) â€” All Rights Reserved
+// © 2026 Aboubacar Sidick Meite (ApollonASM8977) — All Rights Reserved
 import { useState } from 'react'
 import { User, Heart } from 'lucide-react'
 import ProfileTab from './components/ProfileTab'
@@ -8,7 +8,7 @@ type Tab = 'profile' | 'compat'
 
 const TABS: { id: Tab; label: string; icon: React.ReactNode }[] = [
   { id: 'profile', label: 'Mon Profil',     icon: <User size={14} /> },
-  { id: 'compat',  label: 'CompatibilitÃ©',  icon: <Heart size={14} /> },
+  { id: 'compat',  label: 'Compatibilité',  icon: <Heart size={14} /> },
 ]
 
 export default function App() {
@@ -30,12 +30,12 @@ export default function App() {
           <div className="flex items-center justify-center gap-3">
             <span className="text-4xl animate-float">âœ¨</span>
             <h1 className="font-serif text-4xl font-bold gradient-text tracking-wide">
-              NumÃ©rologie
+              Numérologie
             </h1>
             <span className="text-4xl animate-float" style={{ animationDelay: '1s' }}>âœ¨</span>
           </div>
           <p className="text-sm text-mystic-muted tracking-wide">
-            DÃ©couvrez les vibrations cachÃ©es de votre prÃ©nom et de votre date de naissance
+            Découvrez les vibrations cachées de votre prénom et de votre date de naissance
           </p>
           <div className="flex items-center justify-center gap-2 text-mystic-muted/40 text-xs">
             <span className="w-16 h-px bg-gradient-to-r from-transparent to-mystic-gold/30" />
@@ -78,7 +78,7 @@ export default function App() {
           <p className="text-center text-mystic-muted/30 text-xs mt-6 tracking-widest">
             v1.0.0 Â· FastAPI + React Â· Analyse locale
           </p>
-          <p className="text-right text-mystic-muted/20 text-xs mt-1 pr-1">Â© ASM</p>
+          <p className="text-right text-mystic-muted/20 text-xs mt-1 pr-1">© ASM</p>
         </main>
       </div>
     </div>
